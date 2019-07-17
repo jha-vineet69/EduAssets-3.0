@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #edeff0;
+}
+
+#showcase{
+    min-height: 200px;
+    background-color: rgba(4, 9, 30, 0.8);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#showcase .text{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+}
+
+#showcase .text h2{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+/* showcase */
+
+ol {
+    list-style-type: upper-roman;
+}
+
+#priv{
+    padding: 35px;
+
+    background-color: #228f85;
+}
+
+#priv ol li{
+    line-height: 30px;
+    font-size: 1.2em;
+}
+
